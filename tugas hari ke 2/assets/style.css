@@ -59,6 +59,8 @@ nav .right-side a {
 }
 a:hover {
     font-size: 110%;
+    transition:all ease 0.5s;
+    display: inline-block;
 }
 
 .title {
@@ -67,10 +69,95 @@ a:hover {
     padding-top: 40px;
     font-size: 600;
 }
+/* isi index */
+.card {
+    width: 450px;
+    border: 1px solid #00000040;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #00000040;
+}
+
+.card .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card .title h1 {
+    margin: 5px 0px;
+    text-decoration: solid;
+
+}
+
+.card .content p {
+    text-align: center;
+    color: black;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-decoration: solid;
+}
+
+.personal {
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    border: 10px gray;
+    margin: 90px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.personal .container-content {
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+
+}
+
+.container-content .left {
+    flex: 40%;
+}
+
+.container-content .right {
+    flex: 60%;
+    padding-right: 40px;
+}
+.right .title-index {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.right .content-index{
+    text-align: justify;
+}
+.right .icon-button button {
+    margin-top: 20px;
+    padding: 5px 30px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.right .icon-button p {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 17px;
+    display: inline;
+}
+.right .icon-button i {
+    font-size: larger;
+}
+.right .icon-index {
+    font-size:xx-large;
+    letter-spacing: 10px;
+}
+/* isi index end */
+
 
 /* CONTACT FORM START */
 .form-contact {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
